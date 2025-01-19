@@ -92,7 +92,7 @@ You can also load files by directly dragging the file into the homepage or file 
 ### Switch Log Parser for File Logs
 On the file log page, you can switch parsers using the drop-down menu in the upper right corner. The default parser is `DefaultRawLog`, which treats each line of the log as a whole, and filtering can only be done on the entire line.  
 If you are viewing a standard Android Logcat log, switch to `StandardLogcatFileLog`, which divides the log into `time`, `message`, `tag`, `pid`, `tid`, and `log level`, allowing you to filter each part individually.  
-You can also go to `Menu -> Settings -> Log Customization` to create your own log parser.
+You can also go to `Menu -> Settings -> Log Customization` to create your own log parser(although the current custom parser functionality is still relatively simple, it may be made into a plugin in the future).
 
 ![operation_choose_log_metadata](pic%2Foperation_choose_log_metadata.png)
 

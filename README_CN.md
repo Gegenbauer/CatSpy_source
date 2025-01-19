@@ -90,7 +90,7 @@ java -jar CatSpy-${version}.jar
 ### 文件日志切换解析器
 在文件日志页，右上角下拉框，可以切换解析器，默认为`DefaultRawLog`，它将每行日志作为一个整体，过滤时也只能对整行内容进行匹配。
 如果查看标准`Android Logcat`日志，请切换到`StandardLogcatFileLog`，它将日志划分为`time`，`message`，`tag`，`pid`，`tid`，`log level`，并且可以对每个部分单独进行过滤。
-你也可以前往 菜单->设置->日志定制 创建自己的日志解析器。
+你也可以前往 菜单->设置->日志定制 创建自己的日志解析器（目前自定义解析器的功能还比较简陋，后面可能会做成插件形式）。
 
 ![operation_choose_log_metadata](pic%2Foperation_choose_log_metadata.png)
 ### 读取设备日志
